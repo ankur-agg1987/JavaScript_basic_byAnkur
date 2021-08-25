@@ -1,0 +1,31 @@
+<body>
+<script>
+var radius = prompt('Enter radius');
+alert("Entered radius: "+radius);
+
+class Circle{
+constructor (radius) {
+    this.radius = radius;
+  }
+
+  getArea() {
+    return Math.PI * Math.pow(this.radius, 2);
+  }
+
+  getPerimeter() {
+    return 2 * Math.PI * this.radius;
+  }
+}
+
+Circle c = new Circle();
+c.getArea();
+c.getPerimeter();
+}
+</script>
+
+<button  value="Click" />
+</body>
+
+
+
+
